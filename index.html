@@ -52,6 +52,7 @@
                 var obj = JSON.parse(this.response);
                 if (request.status >= 200 && request.status < 400) {
                     var Country = (obj.sys.country);
+                    var Country = Country.toLowerCase();
                     var feels = Math.round(parseFloat(obj.main.feels_like)-273.15);
                     var nowDesc = (obj.weather[0].main)
                     var low = Math.round(parseFloat(obj.main.temp_min)-273.15);
