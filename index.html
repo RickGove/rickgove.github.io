@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Gove's Weather</title>
+  <script type="text/javascript">
+    var lat = 0;
+    var lon = 0;
+        function findNewWeather(){
+            document.getElementById("boxA").className = "hidden";
+            document.getElementById("boxB").className = "hidden";
+            document.getElementById("boxC").className = "hidden";
+            document.getElementById("boxD").className = "hidden";
+            var newPLace = "";
+            document.getElementById("curCITY").innerHTML = newPLace;
+            document.getElementById("boxA").className = "shown";
+            document.getElementById("boxB").className = "shown";
+            document.getElementById("boxC").className = "shown";
+            document.getElementById("boxD").className = "shown";
+            var newPLace = document.getElementById('search_term').value;
+            document.getElementById("curCITY").innerHTML = newPLace;
+            var link=('https://maps.googleapis.com/maps/api/geocode/json?address=' + newPLace + '&key=AIzaSyCW1t8ip5wTsdpR02OmSFQ7avapM8pAzw8');
+            var request = new XMLHttpRequest();
+            request.open('GET',link,true);
+            request.onload = function(){
+            var obj2 = JSON.parse(this.response);
+            if (request.status >= 200 && request.status < 400) {
+            lat = (obj2.results[0].geometry.location.lat);
+            lon = (obj2.results[0].geometry.location.lng);
+            var name = document.getElementById('search_term').value
+            document.getElementById("search_term").value = "";
+            document.getElementById("search_term").placeholder = "New location...";
+            WeatherMainLatLon(lat, lon);
+            }
+                else{
+                console.log("The city doesn't exist! Kindly check");
+                }
+                }
+                request.send(); 
+            }
+    </script>
+
+
+
+    <script type="text/javascript">
+        var key = 'f63ee05c044c91f80348c4e021c7d476';
+        function WeatherMainLatLon(lat, lon){
+                var link=('https://api.openweathermap.org/data/2.5/weather?lat=' + lat+ '&lon=' + lon+ '&appid='+ key);
+                var request = new XMLHttpRequest();
+                request.open('GET',link,true);
+                request.onload = function(){
+                var obj = JSON.parse(this.response);
+                if (request.status >= 200 && request.status < 400) {
+                    var Country = (obj.sys.country);
+                    var feels = Math.round(parseFloat(obj.main.feels_like)-273.15);
+                    var nowDesc = (obj.weather[0].main)
+                    var low = Math.round(parseFloat(obj.main.temp_min)-273.15);
+                    var hi = Math.round(parseFloat(obj.main.temp_max)-273.15);         
+                    var weather = (obj.weather[0].icon)
+                    var imgUrl = ("http://openweathermap.org/img/wn/" + weather + "@2x.png")
+                    var celcius = Math.round(parseFloat(obj.main.temp)-273.15);
+                    var fahrenheit = Math.round(((parseFloat(obj.main.temp)-273.15)*1.8)+32); 
+                    var temp = (obj.main.temp);
+                    var windC = (obj.wind.speed);
+                    var Srise = (obj.main.pressure);
+                    var Sset = (obj.main.humidity)
+                    var newFlagUrl = "./flags/"+Country+".png";
+                    document.getElementById('curFLAG').src = newFlagUrl;
+                    document.getElementById("curTEMP").innerHTML = celcius + '&deg;';
+                    document.getElementById("curIMG").src = imgUrl;
+                    document.getElementById("curFEELS").innerHTML = 'Feels: ' +feels + '&deg';
+                    document.getElementById("curDESC").innerHTML = nowDesc;
+                    document.getElementById("tonightLO").innerHTML = low + '&deg';
+                    document.getElementById("todayHI").innerHTML = hi + '&deg';
+                    document.getElementById("curWIND").innerHTML = 'Wind Speed: '+windC + ' KM/H';
+                    document.getElementById("curRISE").innerHTML = 'Pressure: ' + Srise + ' hPa';
+                    document.getElementById("curSET").innerHTML = 'Humidity: ' + Sset+ '%';
+                    }
+                else{
+                    alert("The city doesn't exist! Kindly check");
+                    }
+                }
+            request.send();
+                                        }
+
+        // Get weather via Lat and Lon on load
+            function WeatherLatLon(lat, lon){
+                var link=('https://api.openweathermap.org/data/2.5/weather?lat=' + lat+ '&lon=' + lon+ '&appid='+ key);
+                var request = new XMLHttpRequest();
+                    request.open('GET',link,true);
+                    request.onload = function(){
+                    var obj = JSON.parse(this.response);
+                    if (request.status >= 200 && request.status < 400) {
+                        var Country = (obj.sys.country);
+                        var name = (obj.name +"   ");
+                        var weather = (obj.weather[0].icon)
+                        var imgUrl = ("http://openweathermap.org/img/wn/" + weather + "@2x.png")
+                        var celcius = Math.round(parseFloat(obj.main.temp)-273.15);
+                        var fahrenheit = Math.round(((parseFloat(obj.main.temp)-273.15)*1.8)+32); 
+                        var temp = (obj.main.temp);
+                        var newFlagUrl = "./flags/"+Country+".png";
+                        document.getElementById('flag').src = newFlagUrl;
+                        document.getElementById("cityHead").innerHTML = name;
+                        document.getElementById("temperatureHead").innerHTML = celcius + '&deg;';
+                        document.getElementById("weatherHead").src = imgUrl;
+                    }
+                    else{
+                        alert("The city doesn't exist! Kindly check");
+                    }
+                }
+                request.send();
+                                }
+
+        // function to find current location
+            function findLocation (){
+                var isOnline = window.navigator.onLine;
+                if (isOnline) {
+                if(navigator.geolocation) {
+                      navigator.geolocation.getCurrentPosition(function(position) {
+                        lat = position.coords.latitude
+                        lon = position.coords.longitude
+                        WeatherLatLon(lat, lon);
+                    });
+                } else {
+                    alert("Sorry, your browser does not support HTML5 geolocation.");
+                }
+                    
+                } else {
+                    alert('You are currently offline, please connet to the internet');
+                                    
+                }
+            
+            }
+</script>
+
+</head>
+<body onload="findLocation()">
+<header>
+    <nav>
+      <ul>
+        <li><div class = "gpsIconDiv"><img class = "gpsIcon" src="GPS.png"></div></li>
+        <li><div id="cityHead">Location Data</div></li>
+        <li><div id="temperatureHead">Not Recieved</div></li>
+        <li><div class="iconHead" id="iconPlace"><img class= "icon" src="https://cdn0.iconfinder.com/data/icons/emoticons-round-smileys/137/Emoticons-14-512.png" id="weatherHead"></div></li>
+        <li><div id="countryHead"><img id="flag" src="./flags/by.png"></div></li>
+        <li class="logo">Gove's Weather Dot Com</li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+
+    <div class="searchArea">
+        <ul>
+            <li><div><input type="text" id="search_term" placeholder="Other Location ..."></div></li>
+            <li><div><input type="submit" value="Check Weather" onclick="findNewWeather()" /></div></li>    
+        </ul>
+    </div>
+   
+    <div id="MAINarea" class="bigMainArea">
+        <h1 id="curCITY" class="cityNameMain"></h1>
+    </div>
+
+  <div class="boxArea">
+    <ul>
+      <li id="boxA" class="hidden"> 
+        <div>
+          <h1>Current</h1>
+          <img id="curIMG" class="notFlag" src="http://openweathermap.org/img/wn/10d@2x.png" alt="today icon">
+          <h2 id="curTEMP">12oC</h2>
+          <h3 id="curFEELS">Feels: 9oC</h3>
+          <h3 id="curDESC">Mostly Sunny</h3><
+        </div>
+      </li>
+      <li id="boxB" class="hidden">
+        <div>
+        <h1>High</h1>
+        <img id="todayIMG" class="notFlag" src="./hi.png" alt="today icon">
+        <h2 id="todayHI">15oC Hi</h2>
+        </div>  
+      </li>
+      <li id="boxC" class="hidden">
+        <div>
+        <h1>Low</h1>
+        <img id="tonightIMG" class="notFlag" src="./lo.png" alt="today icon">
+        <h2 id="tonightLO">-63oC Lo</h2>
+        </div> 
+      </li>
+      <li id="boxD" class="hidden">
+        <div>
+        <h1>Details</h1>
+        <img id="curFLAG" class="flag" src="./flags/by.png">
+        <h3 id="curWIND">Wind CHill: -5oC</h3>
+        <h3 id="curRISE" >Sunrise: 05:00</h3>
+        <h3 id="curSET">Sunset: 16:00</h3>
+        </div>
+      </li>
+    </ul>
+
+
+  </div>
+
+  <footer>
+    Copyright 2020 Rick Gove - All Rights Reserved
+  </footer>
+
+<script type="text/javascript">
+    function ActivatePlacesSearch(){
+      var input = document.getElementById('search_term');
+      var autoComplete = new google.maps.places.Autocomplete(input);
+
+    }
+</script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW1t8ip5wTsdpR02OmSFQ7avapM8pAzw8&libraries=places&callback=ActivatePlacesSearch"></script>
+
+</body>
+
+</html>
