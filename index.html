@@ -13,7 +13,12 @@
             document.getElementById("boxC").className = "hidden";
             document.getElementById("boxD").className = "hidden";
             var newPLace = "";
-            document.getElementById("curCITY").innerHTML = newPLace;
+          document.getElementById("boxA").className = "shown";
+            document.getElementById("boxB").className = "shown";
+            document.getElementById("boxC").className = "shown";
+            document.getElementById("boxD").className = "shown";
+              
+          document.getElementById("curCITY").innerHTML = newPLace;
             var newPLace = document.getElementById('search_term').value;
             document.getElementById("curCITY").innerHTML = newPLace;
             var link=('https://maps.googleapis.com/maps/api/geocode/json?address=' + newPLace + '&key=AIzaSyCW1t8ip5wTsdpR02OmSFQ7avapM8pAzw8');
@@ -28,10 +33,6 @@
             document.getElementById("search_term").value = "";
             document.getElementById("search_term").placeholder = "New location...";
             WeatherMainLatLon(lat, lon);
-            document.getElementById("boxA").className = "shown";
-            document.getElementById("boxB").className = "shown";
-            document.getElementById("boxC").className = "shown";
-            document.getElementById("boxD").className = "shown";
             
             }
                 else{
@@ -104,10 +105,8 @@
                         var temp = (obj.main.temp);
                         var newFlagUrl = "./flags/"+Country+".png";
                         document.getElementById('flag').src = newFlagUrl;
-                        document.getElementById('flag').style = 'display: inline-block;"
                         document.getElementById("cityHead").innerHTML = name;
                         document.getElementById("temperatureHead").innerHTML = celcius + '&deg;';
-                        document.getElementById("weatherHead").style = 'display: inline-block;";  
                         document.getElementById("weatherHead").src = imgUrl;
                     }
                     else{
@@ -147,8 +146,8 @@
         <li><div class = "gpsIconDiv"><img class = "gpsIcon" src="GPS.png"></div></li>
         <li><div id="cityHead"></div></li>
         <li><div id="temperatureHead"></div></li>
-        <li><div class="iconHead" id="iconPlace"><img class= "icon" src="blank.png" id="weatherHead" style="display: none;"></div></li>
-        <li><div id="countryHead"><img id="flag" src="blank.png" style="display: none;"></div></li>
+        <li><div class="iconHead" id="iconPlace"><img class= "icon" src="blank.png" id="weatherHead"></div></li>
+        <li><div id="countryHead"><img id="flag" src="blank.png"></div></li>
         <li class="logo">Gove's Weather Dot Com</li>
       </ul>
     </nav>
