@@ -53,7 +53,6 @@
                 if (request.status >= 200 && request.status < 400) {
                     var Country = (obj.sys.country);
                     var Country = Country.toLowerCase();
-                    alert (`${Country} is the Country var`);
                     var feels = Math.round(parseFloat(obj.main.feels_like)-273.15);
                     var nowDesc = (obj.weather[0].main)
                     var low = Math.round(parseFloat(obj.main.temp_min)-273.15);
@@ -94,6 +93,7 @@
                     var obj = JSON.parse(this.response);
                     if (request.status >= 200 && request.status < 400) {
                         var Country = (obj.sys.country);
+                        Country = Country.toLowerCase();
                         var name = (obj.name +"   ");
                         var weather = (obj.weather[0].icon)
                         var imgUrl = ("http://openweathermap.org/img/wn/" + weather + "@2x.png")
@@ -141,10 +141,10 @@
     <nav>
       <ul>
         <li><div class = "gpsIconDiv"><img class = "gpsIcon" src="GPS.png"></div></li>
-        <li><div id="cityHead">Location Data</div></li>
-        <li><div id="temperatureHead">Not Recieved</div></li>
-        <li><div class="iconHead" id="iconPlace"><img class= "icon" src="https://cdn0.iconfinder.com/data/icons/emoticons-round-smileys/137/Emoticons-14-512.png" id="weatherHead"></div></li>
-        <li><div id="countryHead"><img id="flag" src="./flags/by.png"></div></li>
+        <li><div id="cityHead"></div></li>
+        <li><div id="temperatureHead"></div></li>
+        <li><div class="iconHead" id="iconPlace"><img class= "icon" src="blank.png" id="weatherHead"></div></li>
+        <li><div id="countryHead"><img id="flag" src="blank.png"></div></li>
         <li class="logo">Gove's Weather Dot Com</li>
       </ul>
     </nav>
