@@ -21,7 +21,7 @@
           document.getElementById("curCITY").innerHTML = newPLace;
             var newPLace = document.getElementById('search_term').value;
             document.getElementById("curCITY").innerHTML = newPLace;
-            var link=('https://maps.googleapis.com/maps/api/geocode/json?address=' + newPLace + '&key=AIzaSyCW1t8ip5wTsdpR02OmSFQ7avapM8pAzw8');
+            var link=('https://maps.googleapis.com/maps/api/geocode/json?address=' + newPLace + '&key=');
             var request = new XMLHttpRequest();
             request.open('GET',link,true);
             request.onload = function(){
@@ -217,7 +217,7 @@
     }
 </script>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW1t8ip5wTsdpR02OmSFQ7avapM8pAzw8&libraries=places&callback=ActivatePlacesSearch"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=ActivatePlacesSearch"></script>
 
 </body>
 
