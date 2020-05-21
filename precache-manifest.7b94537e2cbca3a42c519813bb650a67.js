@@ -1,23 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c55a8c0a88899afa52a7e63be7d66cf6",
+    "revision": "0aa73a3f27be115efcc7dda5638bba00",
     "url": "/index.html"
   },
   {
-    "revision": "238abd954fcd76f62035",
-    "url": "/static/js/2.e501749f.chunk.js"
+    "revision": "44d2a4ce039bdaefb9c6",
+    "url": "/static/js/2.a0055f41.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.e501749f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a0055f41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0256c72ca3d13590074",
-    "url": "/static/js/main.e64120b7.chunk.js"
+    "revision": "e84ccdaa8302d411e07f",
+    "url": "/static/js/main.54e8c2c9.chunk.js"
   },
   {
     "revision": "bd3bbfe48c82e953e6e6",
     "url": "/static/js/runtime-main.b501d508.js"
+  },
+  {
+    "revision": "8f7874ea0573d6eee9d22d1d6a548bff",
+    "url": "/static/media/by.8f7874ea.png"
+  },
+  {
+    "revision": "94f09a7e07ce76966f8d3273f13a1d95",
+    "url": "/static/media/icon.94f09a7e.png"
+  },
+  {
+    "revision": "95c8945315590691541fbe2514cede46",
+    "url": "/static/media/logo.95c89453.png"
   },
   {
     "revision": "3745d5de0728ec47786eb328c7076356",
@@ -34,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ca1bf078f29bbef7cb6c94770a917b73",
     "url": "/static/media/logo_email.ca1bf078.png"
+  },
+  {
+    "revision": "07883e93734b98cae0f7b9c55d287250",
+    "url": "/static/media/logo_github.07883e93.svg"
   },
   {
     "revision": "8ba1a66e461f2659c489cc912dcba64f",
@@ -62,5 +78,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9fccedde88ae25dce781ea7ed08c9f2",
     "url": "/static/media/scrollTop.c9fccedd.png"
+  },
+  {
+    "revision": "1328020f95c7f5c23a719019fa4cfbbd",
+    "url": "/static/media/wallpaperA.1328020f.jpg"
+  },
+  {
+    "revision": "b4b0cd74233265e7adb6f26c5125b0d8",
+    "url": "/static/media/wallpaperB.b4b0cd74.jpg"
+  },
+  {
+    "revision": "2e1fa8c4ec26eba8ed776bbf578eff4a",
+    "url": "/static/media/weatherIcon.2e1fa8c4.png"
   }
 ]);

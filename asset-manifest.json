@@ -1,30 +1,37 @@
 {
   "files": {
-    "main.js": "/static/js/main.e64120b7.chunk.js",
-    "main.js.map": "/static/js/main.e64120b7.chunk.js.map",
+    "main.js": "/static/js/main.54e8c2c9.chunk.js",
+    "main.js.map": "/static/js/main.54e8c2c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b501d508.js",
     "runtime-main.js.map": "/static/js/runtime-main.b501d508.js.map",
-    "static/js/2.e501749f.chunk.js": "/static/js/2.e501749f.chunk.js",
-    "static/js/2.e501749f.chunk.js.map": "/static/js/2.e501749f.chunk.js.map",
+    "static/js/2.a0055f41.chunk.js": "/static/js/2.a0055f41.chunk.js",
+    "static/js/2.a0055f41.chunk.js.map": "/static/js/2.a0055f41.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4f00b048f7822b9cd41c49dba512ed31.js": "/precache-manifest.4f00b048f7822b9cd41c49dba512ed31.js",
+    "precache-manifest.7b94537e2cbca3a42c519813bb650a67.js": "/precache-manifest.7b94537e2cbca3a42c519813bb650a67.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.e501749f.chunk.js.LICENSE.txt": "/static/js/2.e501749f.chunk.js.LICENSE.txt",
+    "static/js/2.a0055f41.chunk.js.LICENSE.txt": "/static/js/2.a0055f41.chunk.js.LICENSE.txt",
+    "static/media/by.png": "/static/media/by.8f7874ea.png",
+    "static/media/icon.png": "/static/media/icon.94f09a7e.png",
+    "static/media/logo.png": "/static/media/logo.95c89453.png",
     "static/media/logo_SC.png": "/static/media/logo_SC.3745d5de.png",
     "static/media/logo_construction.png": "/static/media/logo_construction.deb43135.png",
     "static/media/logo_css.png": "/static/media/logo_css.f1f33005.png",
     "static/media/logo_email.png": "/static/media/logo_email.ca1bf078.png",
+    "static/media/logo_github.svg": "/static/media/logo_github.07883e93.svg",
     "static/media/logo_html.png": "/static/media/logo_html.8ba1a66e.png",
     "static/media/logo_linked.png": "/static/media/logo_linked.a146e3d9.png",
     "static/media/logo_npm.png": "/static/media/logo_npm.e69f859b.png",
     "static/media/logo_react.png": "/static/media/logo_react.90e377a0.png",
     "static/media/logo_redux.png": "/static/media/logo_redux.443df9a0.png",
     "static/media/logo_twitter.png": "/static/media/logo_twitter.9c3104cf.png",
-    "static/media/scrollTop.png": "/static/media/scrollTop.c9fccedd.png"
+    "static/media/scrollTop.png": "/static/media/scrollTop.c9fccedd.png",
+    "static/media/wallpaperA.jpg": "/static/media/wallpaperA.1328020f.jpg",
+    "static/media/wallpaperB.jpg": "/static/media/wallpaperB.b4b0cd74.jpg",
+    "static/media/weatherIcon.png": "/static/media/weatherIcon.2e1fa8c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b501d508.js",
-    "static/js/2.e501749f.chunk.js",
-    "static/js/main.e64120b7.chunk.js"
+    "static/js/2.a0055f41.chunk.js",
+    "static/js/main.54e8c2c9.chunk.js"
   ]
 }
