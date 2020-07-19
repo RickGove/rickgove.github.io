@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.f489749d.chunk.js",
-    "main.js.map": "/static/js/main.f489749d.chunk.js.map",
+    "main.js": "/static/js/main.fa27603d.chunk.js",
+    "main.js.map": "/static/js/main.fa27603d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b501d508.js",
     "runtime-main.js.map": "/static/js/runtime-main.b501d508.js.map",
     "static/js/2.56cfcac4.chunk.js": "/static/js/2.56cfcac4.chunk.js",
     "static/js/2.56cfcac4.chunk.js.map": "/static/js/2.56cfcac4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.13defec9b45f540406456111ac127c44.js": "/precache-manifest.13defec9b45f540406456111ac127c44.js",
+    "precache-manifest.c282027998bf7ee11476b5cb6ec1cde7.js": "/precache-manifest.c282027998bf7ee11476b5cb6ec1cde7.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.56cfcac4.chunk.js.LICENSE.txt": "/static/js/2.56cfcac4.chunk.js.LICENSE.txt",
     "static/media/0-min.png": "/static/media/0-min.1a838abb.png",
@@ -108,7 +108,7 @@
     "static/media/vs.png": "/static/media/vs.98746574.png",
     "static/media/wallpaperA.jpg": "/static/media/wallpaperA.1328020f.jpg",
     "static/media/wallpaperB.jpg": "/static/media/wallpaperB.b4b0cd74.jpg",
-    "static/media/watchlogo-min.png": "/static/media/watchlogo-min.01bd7983.png",
+    "static/media/watchlogo-min.png": "/static/media/watchlogo-min.b463dbbf.png",
     "static/media/weather.gif": "/static/media/weather.1c19335e.gif",
     "static/media/wpBW.jpg": "/static/media/wpBW.ea9dc4f9.jpg",
     "static/media/yt.png": "/static/media/yt.cdbd6b90.png"
@@ -116,6 +116,6 @@
   "entrypoints": [
     "static/js/runtime-main.b501d508.js",
     "static/js/2.56cfcac4.chunk.js",
-    "static/js/main.f489749d.chunk.js"
+    "static/js/main.fa27603d.chunk.js"
   ]
 }

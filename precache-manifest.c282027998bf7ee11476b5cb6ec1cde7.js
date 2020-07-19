@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9dbb892591f30bb00ede14ed1f2a01e2",
+    "revision": "e515994950972a4a044b09d006b32c5b",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.56cfcac4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab7dc27409123501997a",
-    "url": "/static/js/main.f489749d.chunk.js"
+    "revision": "06c8a4b0423c9c8ef37e",
+    "url": "/static/js/main.fa27603d.chunk.js"
   },
   {
     "revision": "bd3bbfe48c82e953e6e6",
@@ -416,8 +416,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/wallpaperB.b4b0cd74.jpg"
   },
   {
-    "revision": "01bd79832e64e1b17ee908a92e177430",
-    "url": "/static/media/watchlogo-min.01bd7983.png"
+    "revision": "b463dbbf5f25815a980fc1f6b79afb31",
+    "url": "/static/media/watchlogo-min.b463dbbf.png"
   },
   {
     "revision": "1c19335e0281751875cee9b09a30022e",
