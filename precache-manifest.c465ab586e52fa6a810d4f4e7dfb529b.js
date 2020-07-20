@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e515994950972a4a044b09d006b32c5b",
+    "revision": "7343a3a055dbb394a38bff32cac5920c",
     "url": "/index.html"
   },
   {
-    "revision": "c3ce8d2b9007d20a3f96",
-    "url": "/static/js/2.56cfcac4.chunk.js"
+    "revision": "515b8a59514fa2bfc1a2",
+    "url": "/static/js/2.b88ceb52.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.56cfcac4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b88ceb52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06c8a4b0423c9c8ef37e",
-    "url": "/static/js/main.fa27603d.chunk.js"
+    "revision": "da1b86e81f18f99ccdb3",
+    "url": "/static/js/main.0f048f09.chunk.js"
   },
   {
     "revision": "bd3bbfe48c82e953e6e6",
@@ -414,10 +414,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4b0cd74233265e7adb6f26c5125b0d8",
     "url": "/static/media/wallpaperB.b4b0cd74.jpg"
-  },
-  {
-    "revision": "b463dbbf5f25815a980fc1f6b79afb31",
-    "url": "/static/media/watchlogo-min.b463dbbf.png"
   },
   {
     "revision": "1c19335e0281751875cee9b09a30022e",
