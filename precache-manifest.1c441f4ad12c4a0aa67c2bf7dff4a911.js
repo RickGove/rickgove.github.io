@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "129e0b1800046ba1824aedd3ae315929",
+    "revision": "e47300fc0597d00ee4d8e12b7a9d86f8",
     "url": "/index.html"
   },
   {
-    "revision": "adcbc11d7d8c734d6ca6",
-    "url": "/static/js/2.9590d336.chunk.js"
+    "revision": "e77dd5a6149280309ba0",
+    "url": "/static/js/2.cfa8f331.chunk.js"
   },
   {
     "revision": "f5327a3e8204f21ff1b2e5af38bc59ba",
-    "url": "/static/js/2.9590d336.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cfa8f331.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c08f81e17366f12b05c4",
-    "url": "/static/js/main.930ee26b.chunk.js"
+    "revision": "9527bfc2c5185cb7cbba",
+    "url": "/static/js/main.d8460138.chunk.js"
   },
   {
     "revision": "bd3bbfe48c82e953e6e6",
@@ -200,6 +200,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bubble.fc7e1772.png"
   },
   {
+    "revision": "28dd1fe519329a011d1e687595aabfc6",
+    "url": "/static/media/by.28dd1fe5.jpg"
+  },
+  {
     "revision": "8f7874ea0573d6eee9d22d1d6a548bff",
     "url": "/static/media/by.8f7874ea.png"
   },
@@ -272,48 +276,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logoReport-min.58a684bd.png"
   },
   {
-    "revision": "3745d5de0728ec47786eb328c7076356",
-    "url": "/static/media/logo_SC.3745d5de.png"
+    "revision": "4831096dcc7737543f57463cae2cc5d0",
+    "url": "/static/media/logo_SC.4831096d.png"
   },
   {
-    "revision": "deb4313555a8105113749d427b543e40",
-    "url": "/static/media/logo_construction.deb43135.png"
-  },
-  {
-    "revision": "f1f330057af169d9e725dae149d2ba75",
-    "url": "/static/media/logo_css.f1f33005.png"
+    "revision": "1445a9996e1372588f09f6fb2411fd4d",
+    "url": "/static/media/logo_construction.1445a999.png"
   },
   {
     "revision": "ca1bf078f29bbef7cb6c94770a917b73",
     "url": "/static/media/logo_email.ca1bf078.png"
   },
   {
+    "revision": "ed7fa90cdad9e5a6e23e5ebfa342d9ab",
+    "url": "/static/media/logo_email.ed7fa90c.png"
+  },
+  {
     "revision": "07883e93734b98cae0f7b9c55d287250",
     "url": "/static/media/logo_github.07883e93.svg"
   },
   {
-    "revision": "8ba1a66e461f2659c489cc912dcba64f",
-    "url": "/static/media/logo_html.8ba1a66e.png"
-  },
-  {
-    "revision": "ca674b5186b28e2b0edae538ee5388d0",
-    "url": "/static/media/logo_leet.ca674b51.png"
+    "revision": "311d59a66f40f52d1584ad3d6033e6bb",
+    "url": "/static/media/logo_gsap.311d59a6.svg"
   },
   {
     "revision": "a146e3d909b29fa92e39fbfd3a496c9b",
     "url": "/static/media/logo_linked.a146e3d9.png"
   },
   {
-    "revision": "e69f859b1607e7fd4ddc539722911d09",
-    "url": "/static/media/logo_npm.e69f859b.png"
+    "revision": "2c60f7c8f67f936ade30aa44729c9ff2",
+    "url": "/static/media/logo_react.2c60f7c8.png"
   },
   {
-    "revision": "90e377a0adefbf009fa135b7519241e1",
-    "url": "/static/media/logo_react.90e377a0.png"
+    "revision": "8e9f3bffe4a7c26535d63f2bc0b59087",
+    "url": "/static/media/logo_redux.8e9f3bff.png"
   },
   {
-    "revision": "443df9a00bb614cfaf82cc43a3fd9b69",
-    "url": "/static/media/logo_redux.443df9a0.png"
+    "revision": "5c2162760fd873c88d87d08b2be0da2c",
+    "url": "/static/media/logo_twitter.5c216276.png"
   },
   {
     "revision": "9c3104cf237c1e01d71b65796882baf6",
@@ -372,12 +372,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/snow.9242de8c.jpg"
   },
   {
-    "revision": "83bfc95318ae329439bc29d4f279fa3d",
-    "url": "/static/media/superIcon.83bfc953.png"
+    "revision": "c7766bd6493556b8fd97db8ac5076625",
+    "url": "/static/media/superIcon.c7766bd6.png"
   },
   {
-    "revision": "ccf1a4ab8e2026987ab71921fd08bfc1",
-    "url": "/static/media/superherosmackdown.ccf1a4ab.gif"
+    "revision": "e923abf8385f5f5d82593e23e65ae9c7",
+    "url": "/static/media/superherosmackdown.e923abf8.png"
   },
   {
     "revision": "c46047f626ee05c0e4ef233aca680150",
@@ -404,8 +404,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/wallpaperB.b4b0cd74.jpg"
   },
   {
-    "revision": "1da27e4bb7274c32469c28ce45a8d565",
-    "url": "/static/media/weather.1da27e4b.gif"
+    "revision": "5fa80e64a5e6f1b1c26c2cc41900c32e",
+    "url": "/static/media/weather.5fa80e64.png"
   },
   {
     "revision": "ea9dc4f9d85c6f6f57cf84424c3af103",
