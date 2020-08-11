@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.d19f3209.chunk.js",
-    "main.js.map": "/static/js/main.d19f3209.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.232d8ad7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.232d8ad7.js.map",
-    "static/js/2.c01c800b.chunk.js": "/static/js/2.c01c800b.chunk.js",
-    "static/js/2.c01c800b.chunk.js.map": "/static/js/2.c01c800b.chunk.js.map",
+    "main.js": "/static/js/main.6947a105.chunk.js",
+    "main.js.map": "/static/js/main.6947a105.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b501d508.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b501d508.js.map",
+    "static/js/2.339dd9fe.chunk.js": "/static/js/2.339dd9fe.chunk.js",
+    "static/js/2.339dd9fe.chunk.js.map": "/static/js/2.339dd9fe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c5d42c65b0548aa377e0e875878a8e7d.js": "/precache-manifest.c5d42c65b0548aa377e0e875878a8e7d.js",
+    "precache-manifest.1de3d7019ba98877474a02ded85d9ccc.js": "/precache-manifest.1de3d7019ba98877474a02ded85d9ccc.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.c01c800b.chunk.js.LICENSE.txt": "/static/js/2.c01c800b.chunk.js.LICENSE.txt",
+    "static/js/2.339dd9fe.chunk.js.LICENSE.txt": "/static/js/2.339dd9fe.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/static/media/logo.fed79969.png",
     "static/media/logo_SC.png": "/static/media/logo_SC.4831096d.png",
     "static/media/logo_email.png": "/static/media/logo_email.ed7fa90c.png",
@@ -18,13 +18,16 @@
     "static/media/logo_react.png": "/static/media/logo_react.2c60f7c8.png",
     "static/media/logo_redux.png": "/static/media/logo_redux.8e9f3bff.png",
     "static/media/logo_twitter.png": "/static/media/logo_twitter.5c216276.png",
+    "static/media/pigIconNew.png": "/static/media/pigIconNew.e63d650c.png",
+    "static/media/superIcon.png": "/static/media/superIcon.c7766bd6.png",
     "static/media/superherosmackdown.png": "/static/media/superherosmackdown.e923abf8.png",
     "static/media/wallpaperA.jpg": "/static/media/wallpaperA.1328020f.jpg",
+    "static/media/wallpaperB.jpg": "/static/media/wallpaperB.b4b0cd74.jpg",
     "static/media/weather.png": "/static/media/weather.5fa80e64.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.232d8ad7.js",
-    "static/js/2.c01c800b.chunk.js",
-    "static/js/main.d19f3209.chunk.js"
+    "static/js/runtime-main.b501d508.js",
+    "static/js/2.339dd9fe.chunk.js",
+    "static/js/main.6947a105.chunk.js"
   ]
 }

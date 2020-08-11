@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77e49c1cd08b81d47eac3ada272d42c8",
+    "revision": "96854f97052bbc8b6a3c903a0a2c0b2d",
     "url": "/index.html"
   },
   {
-    "revision": "64cc76cb05567179a92b",
-    "url": "/static/js/2.c01c800b.chunk.js"
+    "revision": "288e33779a5e227239a2",
+    "url": "/static/js/2.339dd9fe.chunk.js"
   },
   {
     "revision": "81fc4a5d5bd295e7dda24772a5f5a9ff",
-    "url": "/static/js/2.c01c800b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.339dd9fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20eb485564a13ac9f37c",
-    "url": "/static/js/main.d19f3209.chunk.js"
+    "revision": "58d9fd8e7b784ff1b75a",
+    "url": "/static/js/main.6947a105.chunk.js"
   },
   {
-    "revision": "aa4d0b589eee2f84f8d8",
-    "url": "/static/js/runtime-main.232d8ad7.js"
+    "revision": "bd3bbfe48c82e953e6e6",
+    "url": "/static/js/runtime-main.b501d508.js"
   },
   {
     "revision": "fed79969b37341fbffd3f53b9b859e6e",
@@ -52,12 +52,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo_twitter.5c216276.png"
   },
   {
+    "revision": "e63d650c4e7827045db095ccec00e7d9",
+    "url": "/static/media/pigIconNew.e63d650c.png"
+  },
+  {
+    "revision": "c7766bd6493556b8fd97db8ac5076625",
+    "url": "/static/media/superIcon.c7766bd6.png"
+  },
+  {
     "revision": "e923abf8385f5f5d82593e23e65ae9c7",
     "url": "/static/media/superherosmackdown.e923abf8.png"
   },
   {
     "revision": "1328020f95c7f5c23a719019fa4cfbbd",
     "url": "/static/media/wallpaperA.1328020f.jpg"
+  },
+  {
+    "revision": "b4b0cd74233265e7adb6f26c5125b0d8",
+    "url": "/static/media/wallpaperB.b4b0cd74.jpg"
   },
   {
     "revision": "5fa80e64a5e6f1b1c26c2cc41900c32e",
