@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab56e4d25b3250196aba7b9ae73d4a29",
+    "revision": "095e3465824c4577bdaa82ead51fdf90",
     "url": "/index.html"
   },
   {
-    "revision": "1d75412771152902d292",
-    "url": "/static/js/2.931d3150.chunk.js"
+    "revision": "69675f0913c71880b678",
+    "url": "/static/js/2.27439f9b.chunk.js"
   },
   {
     "revision": "ce80381c90f744e84687e807ff362d34",
-    "url": "/static/js/2.931d3150.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.27439f9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8b0c8f03588d75524f8",
-    "url": "/static/js/main.f39acb9f.chunk.js"
+    "revision": "8d6f69a6df7f6393ac0b",
+    "url": "/static/js/main.c09192ce.chunk.js"
   },
   {
     "revision": "aa4d0b589eee2f84f8d8",
@@ -212,10 +212,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/clouds.3d477ace.jpg"
   },
   {
-    "revision": "7b2a340ad13e55d866931b02d23e92a0",
-    "url": "/static/media/dice.7b2a340a.jpeg"
-  },
-  {
     "revision": "f4ed8e181e72330fac362d64e6eb50e3",
     "url": "/static/media/earth.f4ed8e18.jpg"
   },
@@ -226,10 +222,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec27ed28accd00f847f8186365c285a8",
     "url": "/static/media/fk.ec27ed28.png"
-  },
-  {
-    "revision": "d94c81634f710f6590d50031416b11c9",
-    "url": "/static/media/food.d94c8163.jpeg"
   },
   {
     "revision": "c9354e733080f8b87756b428d748ec40",
@@ -266,6 +258,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4831096dcc7737543f57463cae2cc5d0",
     "url": "/static/media/logo_SC.4831096d.png"
+  },
+  {
+    "revision": "ed7fa90cdad9e5a6e23e5ebfa342d9ab",
+    "url": "/static/media/logo_email.ed7fa90c.png"
   },
   {
     "revision": "07883e93734b98cae0f7b9c55d287250",
@@ -322,10 +318,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff3f7e408945b3daed0cedf2c29d1b8b",
     "url": "/static/media/pt.ff3f7e40.png"
-  },
-  {
-    "revision": "170eea7e2f3a0240d7ea365fc9037fe4",
-    "url": "/static/media/rain.170eea7e.jpg"
   },
   {
     "revision": "db7d9183e85249d2d0cb88beffb8d4b8",
